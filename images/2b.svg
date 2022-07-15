@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="432px" height="570px" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 432 570" style="enable-background:new 0 0 432 570;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{opacity:0.38;enable-background:new    ;}
+	.st2{fill:url(#SVGID_2_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-5332.1143" y1="-240.15" x2="-2378.4685" y2="-240.15" gradientTransform="matrix(-8.101851e-02 0 0 1 0 503)">
+	<stop offset="0" style="stop-color:#384DFF"/>
+	<stop offset="1" style="stop-color:#24CDFF"/>
+</linearGradient>
+<polygon class="st0" points="432,418.6 320.8,220.1 192.7,107.1 333.9,418.6 "/>
+<g class="st1">
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-3986.7429" y1="-214.65" x2="1.455192e-11" y2="-214.65" gradientTransform="matrix(-8.101851e-02 0 0 1 0 503)">
+		<stop offset="0" style="stop-color:#384DFF"/>
+		<stop offset="1" style="stop-color:#24CDFF"/>
+	</linearGradient>
+	<polygon class="st2" points="179.4,127.1 0,449.6 323,449.6 146.2,391.5 233.5,281.1  "/>
+</g>
+</svg>

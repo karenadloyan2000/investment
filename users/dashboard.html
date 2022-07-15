@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css" integrity="sha512-FEQLazq9ecqLN5T6wWq26hCZf7kPqUbFC9vsHNbXMJtSZZWAcbJspT+/NEAQkBfFReZ8r9QlA9JHaAuo28MTJA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/costom.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header class="user-header">
+        <div class="menu-dasketop flex space-between align-center container">
+            <div class="logo-language flex align-center space-between max-width-273 w-full">
+                <div class="logo-main relative">
+                    <img src="../images/icons/logo-white.svg" alt="" class="logo-white">
+                    <img src="../images/icons/logo-black.svg" alt=""  style="display:none" class="logo-black">
+                </div>
+                <div class="language flex max-width-74 w-full space-between align-center">
+                    <img src="../images/icons/english.svg" alt="">
+                    <img src="../images/icons/russian.svg" alt="">
+                    <img src="../images/icons/turq.svg" alt="">
+                </div>
+            </div>
+            <ul class="dasketop-menu list-none flex space-between max-width-571 w-full align-center">
+                <li><a href="">menu1</a></li>
+                <li><a href="">menu1</a></li>
+                <li><a href="">menu1</a></li>
+                <li><a href="">menu1</a></li>
+                <li><a href="">menu1</a></li>
+                <div class="profile-mini-info flex space-between max-width-163 w-full  align-center">
+                    <div class="profie-picture flex justify-center align-center">
+                        <i class="fa-regular fa-user"></i>
+                    </div> 
+                    <div class="profi-text">
+                        <p>Verified</p>
+                        <div class="drow-profile relative flex align-center ">Name <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            <ul class="profile-drow" style="display: none">
+                                <div class="drow-profiles flex  align-center">
+                                    <div class="drow-profile-picture flex justify-center align-center">
+                                        AL
+                                    </div>
+                                    <div class="drow-profile-text flex flex-column">
+                                        <p>Name</p>
+                                        <p>Name@email.ru</p>
+                                    </div>
+                                </div>
+                                <div class="profile-balans-descr flex flex-column">
+                                    <p>ACCOUNT BALANCE</p>
+                                    <p><span>0.00</span> USD</p>
+                                    <p><span>0.00</span> ETH</p>
+                                    <a href="">Deaosit Funds</a>
+                                    <a href="">Withdraw Funds</a>
+                                </div>
+                                <div class="profile-settings flex flex-column">
+                                    <a href=""><i class="fa-solid fa-user"></i>View Profile</a>
+                                    <a href=""><i class="fa-solid fa-gear"></i>Security Setting</a>
+                                    <a href=""><i class="fa-solid fa-chart-line"></i>Login Activity</a>
+                                </div>
+                                <div class="profile-logout">
+                                    <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Log out</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <!-- <div class="menu-mobile container flex space-between aligen-center">
+            <div class="logo-language flex space-between aligen-center max-width-276 w-full">
+                <img src="images/icons/logo-black.svg" alt="">  
+                <div class="languages flex space-between align-center max-width-83 w-full">
+                    <a href=""><img src="images/icons/english.svg" alt=""></a>
+                    <a href=""><img src="images/icons/russian.svg" alt=""></a>
+                    <a href=""><img src="images/icons/turq.svg" alt=""></a>
+                </div>
+            </div>
+            <div id="nav-icon3">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div> -->
+        <!-- <ul class="mobile-menu list-none flex flex-column">
+            <li><a href="">menu1</a></li>
+            <li><a href="">menu2</a></li>
+            <li><a href="">menu3</a></li>
+            <li><a href="">menu4</a></li>
+            <li><a href="">menu5</a></li>
+            <li><a href="">menu6</a></li>
+            <li><a href="">menu7</a></li>
+            <li><a href="">menu8</a></li>   
+        </ul> -->
+    </header>
+    <section class="main-header w-full">
+        <h2>Dashboard</h2>
+        <div class="main-href flex space-between align-center max-width-140 w-full margin-auto">
+            <a href="index.html">Home</a>
+            <i class="fa fa-angle-right"></i>
+            <span>Dashboard</span>
+        </div>
+    </section>
+    <section class="main main-user-page container hidden flex relative">
+        <div class="nav-bar flex flex-column max-width-340 w-full">
+            <div class="nav-bar-head w-full  flex space-between align-center" >
+                <img src="../images/logo-dark.png" alt="" class="logo-user-menu" >   
+                <i class="fa-solid fa-arrow-left-long close-menu"></i>  
+            </div>
+            <div class="nav-bar-body">
+                <div class="nav-body-content">
+                    <div class="user-bonus-descr flex flex-column ">
+                        <p>MAIN ACCOUNT BALANCE</p>
+                        <p>0.00 USD</p>
+                        <p>0.00 ETH</p>
+                        <div class="prof-depos w-full flex flex-column">
+                            <div class="prof-depos-row flex space-between alig-center w-full">
+                                <p>Profits (7d)</p>
+                                <p><span>0.00 </span>USD</p>
+                            </div>
+                            <div class="prof-depos-row flex space-between alig-center w-full">
+                                <p>Deposit in orders</p>
+                                <p>9.99 USD</p>
+                            </div>
+                        </div>
+                        <div class="user-bar-body-button max-width-265 w-full flex space-between align-center">
+                            <a href="">Deposit</a>
+                            <a href="">Withdraw</a>
+                        </div>
+                    </div>
+                    <div class="user-steing-monile">
+                        <div class="drow-profiles flex open-setting-menu align-center">
+                            <div class="drow-profile-picture flex justify-center align-center">
+                                AL
+                            </div>
+                            <div class="drow-profile-text flex flex-column">
+                                <p>Name</p>
+                                <p>Name@email.ru</p>
+                            </div>
+                            <i class="fa-solid fa-angle-down "></i>
+                        </div>
+                        <div class="profile-seting-drow" style="display: none">
+                            <div class="profile-balans-descr flex flex-column">
+                                <p>ACCOUNT BALANCE</p>
+                                <p><span>0.00</span> USD</p>
+                                <p><span>0.00</span> ETH</p>
+                                <a href="">Deaosit Funds</a>
+                                <a href="">Withdraw Funds</a>
+                                <div class="prof-depos w-full flex flex-column">
+                                    <div class="prof-depos-row flex space-between alig-center w-full">
+                                        <p>Profits (7d)</p>
+                                        <p><span>0.00 </span>USD</p>
+                                    </div>
+                                    <div class="prof-depos-row flex space-between alig-center w-full">
+                                        <p>Deposit in orders</p>
+                                        <p>9.99 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="profile-settings flex flex-column">
+                                <a href=""><i class="fa-solid fa-user"></i>View Profile</a>
+                                <a href=""><i class="fa-solid fa-gear"></i>Security Setting</a>
+                                <a href=""><i class="fa-solid fa-chart-line"></i>Login Activity</a>
+                            </div>
+                            <div class="profile-logout">
+                                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Log out</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <ul class="navbar-menu list-none flex flex-column">
+                        <p>MENU</p>
+                        <li class="active-page"><a href=""><i class="fa-solid fa-gauge fa-1x"></i>Dashboard</a></li>
+                        <li><a href=""><i class="fa fa-exchange" aria-hidden="true"></i> Transaction</a></li>
+                        <li><a href=""><i class="fa fa-money" aria-hidden="true"></i> Investment</a></li>
+                        <li><a href=""><i class="fa-solid fa-arrows-rotate"></i>Our Plans</a></li>
+                        <li><a href=""><i class="fa-regular fa-address-card"></i>My Profile</a></li>
+                        <li><a href=""><i class="fa-solid fa-share-nodes"></i>Referrals</a></li>
+                        <h2>ADDITIONAL</h2>
+                        <ul class="user-mobile-menu flex flex-column">
+                            <li><a href="">menu</a></li>
+                            <li><a href="">menu</a></li>
+                            <li><a href="">menu</a></li>
+                            <li><a href="">menu</a></li>
+                            <li><a href="">menu</a></li>
+                            <li><a href="">menu</a></li>
+                            <li><a href="">menu</a></li>
+                            <li><a href="">menu</a></li>
+                        </ul>
+                        <div class="contact-navbar flex space-between align-center">
+                           <a href="" class="flex space-between align-center"><i class="fa-light fa-comment-question"></i>Contact</a>
+                           <div class="drow-language relative max-width-102 flex open-nav-language space-between alig-center w-full"><i class="fa fa-globe" aria-hidden="true"></i>English <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            <ul class="languages-navbar list-none"style="display:none">
+                                <li><a href="">English</a></li>
+                                <li><a href="">RTL Mode</a></li>
+                            </ul>
+                           </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-content flex flex-column">
+            <div class="main-content-header  flex w-full space-between align-center">
+
+                <div class="logo-burger-menu flex w-full space-between align-center max-width-200">
+                    <i class="fa-solid fa-bars open-menu"></i>
+                    <img src="../images/logo-dark.png" alt="" >
+                </div>
+            </div>
+            <div class="min-content-body ">
+                <div class="min-content-scroll w-full flex flex-column">
+                    <div class="main-content-userInfo w-full flex space-between flex-wrap alig-center ">
+                        <div class="user-info flex flex-column w-full ">
+                            <p>Welcome!</p>
+                            <h2>User name</h2>
+                            <p>Here's a summary of your account. Have fun!</p>
+                        </div>
+                        <div class="main-cont-button max-width-273 w-full flex space-between align-center">
+                            <a href="">Invest & Earn<i class="fa-solid fa-arrow-right-long"></i></a>
+                            <a href="">Deposit<i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="main-dashboard-notification flex-column flex w-full">
+                        <div class="red-notifi">
+                            <p><i class="fa-solid fa-circle-exclamation"></i> <span>Caution:</span>  All the transactions are NOT real as you have logged into demo application to see the platform.</p>
+                        </div>
+                        <div class="yellow-notifi w-full flex space-between align-center">
+                            <p><i class="fa-solid fa-triangle-exclamation"></i>Add an account that you’d like to receive payment or withdraw fund.</p>
+                            <a href="">Add account</a>
+                        </div>
+                        <div class="blue-notifi">
+                            <p><i class="fa-solid fa-circle-exclamation"></i>Update your account information from your profile to complete account setup.</p>
+                        </div>
+                    </div>
+                    <div class="balans-category flex-wrap flex space-between align-center">
+                        <div class="balans-min flex flex-column max-width-292 w-full">
+                            <div class="balans-min-header w-full flex space-between align-center">
+                                <p>Available Balance</p>
+                                <div class="quest flex justify-center align-center">
+                                    <i class="fa-solid fa-exclamation"></i>
+                                </div>
+                                
+                            </div>
+                            <p><span>0</span> USD</p>
+                            <span>INVESTMENT ACCOUNT</span>
+                            <p><span>0</span> USD</p>
+                        </div>
+                        <div class="balans-min flex flex-column max-width-292 w-full">
+                            <div class="balans-min-header w-full flex space-between align-center">
+                                <p>Available Balance</p>
+                                <div class="quest flex justify-center align-center">
+                                    <i class="fa-solid fa-exclamation"></i>
+                                </div>
+                                
+                            </div>
+                            <p><span>0</span> USD</p>
+                            <span>INVESTMENT ACCOUNT</span>
+                            <p><span>0</span> USD</p>
+                        </div>
+                        <div class="balans-min flex flex-column max-width-292 w-full">
+                            <div class="balans-min-header w-full flex space-between align-center">
+                                <p>Available Balance</p>
+                                <div class="quest flex justify-center align-center">
+                                    <i class="fa-solid fa-exclamation"></i>
+                                </div>
+                                
+                            </div>
+                            <p><span>0</span> USD</p>
+                            <span>INVESTMENT ACCOUNT</span>
+                            <p><span>0</span> USD</p>
+                        </div>
+                    </div>
+                    <p class="recent">Recent Activity</p>
+                    <div class="recent-activy flex flex-column w-full">
+                        <div class="recent-activy-list flex-wrap w-full flex space-between align-center">
+                            <div class="recent-activy-info flex space-between align-center">
+                                <div class="logo-recent flex justify-center align-center">
+                                    <i class="fa-solid green fa-arrow-turn-down"></i>
+                                </div>
+                                <div class="recent-text flex flex-column">
+                                    <p>Deposit via Crypto Wallet</p>
+                                    <span>Jul 10, 2022  Processing</span>
+                                </div>
+                            </div>
+                            <div class="recent-balans-info flex space-between align-center">
+                                <div class="recent-balans">
+                                    <p><span>+ 9.99</span>  USD</p>
+                                    <p>10.00 USDT</p>
+                                </div>
+                                <i class="fa-solid pointer fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="recent-activy-list flex-wrap w-full flex space-between align-center">
+                            <div class="recent-activy-info flex space-between align-center">
+                                <div class="logo-recent flex justify-center align-center">
+                                    <i class="fa-solid mansuh fa-right-left"></i>  
+                                </div>
+                                <div class="recent-text flex flex-column">
+                                    <p>Deposit via Crypto Wallet</p>
+                                    <span>Jul 10, 2022  Processing</span>
+                                </div>
+                            </div>
+                            <div class="recent-balans-info flex space-between align-center">
+                                <div class="recent-balans">
+                                    <p><span>+ 9.99</span>  USD</p>
+                                    <p>10.00 USDT</p>
+                                </div>
+                                <i class="fa-solid pointer fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="recent-activy-list flex-wrap w-full flex space-between align-center">
+                            <div class="recent-activy-info flex space-between align-center">
+                                <div class="logo-recent flex justify-center align-center">   
+                                    <i class="fa-solid green fa-arrow-trend-up"></i>
+                                </div>
+                                <div class="recent-text flex flex-column">
+                                    <p>Deposit via Crypto Wallet</p>
+                                    <span>Jul 10, 2022  Processing</span>
+                                </div>
+                            </div>
+                            <div class="recent-balans-info flex space-between align-center">
+                                <div class="recent-balans">
+                                    <p><span>+ 9.99</span>  USD</p>
+                                    <p>10.00 USDT</p>
+                                </div>
+                                <i class="fa-solid pointer fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="refer flex flex-column">
+                        <h2>Refer Us & Earn</h2>
+                        <p>Use the below link to invite your friends.</p>
+                        <div class="links w-full flex space-between align-center">
+                            <p class="flex w-full align-center"><i class="fa-solid fa-link"></i> <input class="link-referance w-full" type="text" value="https://app.investorm.xyz/invite?ref=df528ce8"></p>
+                            <p class="flex copy-link pointer align-center"><i class="fa-regular fa-copy"></i> <span class="text-copy">copy</span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="flex flex-column">
+        <div class="footer-content container flex flex-wrap space-between align-center">
+            <div class="footer-logo max-width-446 flex flex-column">
+                <img src="../images/icons/logo-black.svg" alt="">
+                <p>The Company EX COINS EXPERT has been proud to help our clients pursue their financial goals while giving them more time to focus on what really matters in life. Everything we offer — from guidance, to optimal crypto shares — is built around one thing — you.</p>
+            </div>
+            <ul class="footer-menu list-none flex flex-column">
+                <p>Information</p>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+            </ul>
+            <ul class="footer-menu list-none flex flex-column">
+                <p>Site languages</p>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+                <li><a href=""> <i class="fa fa-angle-right"></i>Client agreement</a></li>
+            </ul>
+            <ul class="footer-menu list-none flex flex-column">
+                <p>Contact Us</p>
+                <li>149 North Station Road,
+                    Colchester, England, CO1 1UX</li>
+                <li>Company number: 12363050</li>
+                <li>E-Mail: info@excoins.expert</li>
+                <li>Twitter</li>
+            </ul>
+        </div>   
+        <div class="footer-bottom container text-center">
+            <p>© 2020 EX COINS EXPERT. ALL RIGHTS RESERVED.</p>
+        </div> 
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../js/user.js"></script>
+</html>

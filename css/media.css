@@ -1,0 +1,136 @@
+@media (max-width:1300px){
+    .container{
+        max-width: 97%;
+    }
+}
+@media(max-width:1065px){
+    .main-content-tab-block-profile,.tabs-profile,.form-row{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:987px){
+    .balans-category{
+        justify-content: space-around;
+    }
+    
+}
+@media (max-width:900px){
+    .menu-dasketop{
+        display: none;
+    }
+    .container{
+        max-width: 97%;
+    }
+    header{
+        background-color: white;
+    }
+    .menu-mobile{
+        display: flex;
+    }
+    .potfolio-conent{
+        justify-content: center;
+    }
+    .portfolio-carts{
+        justify-content: center;
+    }
+    .excoins-text{
+        max-width: 97%;
+        margin: auto;
+    }
+    .excoins>img{
+        max-width: 97%;
+        margin: auto;
+    }
+    .news-content{
+        justify-content: center;
+    }
+    .footer-content{
+        justify-content: space-around;
+    }
+    .nav-bar{
+        position: absolute;
+        left:-338px;
+        width: 100%;
+        background: white;
+        z-index: 10000;
+    }
+    .logo-burger-menu{
+        display: flex;
+    }
+    .close-menu{
+        display: block;
+    }
+    .profile-mini-info{
+        display: none;
+    }
+    .user-steing-monile{
+        display: block;
+    }
+    marquee{
+        display: none;
+    }
+    .user-bonus-descr{
+        display: none;
+    }
+    .balans-category{
+        flex-direction: column;
+    }
+    .balans-min{
+        max-width: unset;
+    }
+    .menu-user-header{
+        display: none;
+    }
+    .user-mobile-menu{
+        display: flex;
+    }
+    .user-header{
+        display: none;
+    }
+    .main-user-page{
+        max-width: 97%!important;
+    }
+    .min-blocks>div{
+        max-width: unset;
+    }
+    .logo-user-menu{
+        display: block;
+    }
+}
+@media (max-width:635px) {
+    .investboc-content{
+        justify-content: center;
+    }
+    .news-content{
+        justify-content: center;
+    }
+    .main-cont-button{
+        flex-direction: column;
+    }
+    .main-cont-button>a{
+        margin-bottom: 15px;
+        width: 80%;
+    }
+}
+@media (max-width:500px){
+    .diagram-content{
+        justify-content: center;
+    }
+    .login{
+        max-width: 97%;
+        margin: auto;
+    }
+    .logo-burger-menu>img{
+        width: 100px;
+        transition: 0.3s;
+    }
+    .recent-activy-info{
+        margin-bottom: 15px;   
+    }
+}
+@media (min-width:560px ) and (max-width:900px){
+    .container{
+        max-width: 84%;
+    } 
+}
